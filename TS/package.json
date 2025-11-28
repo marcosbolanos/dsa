@@ -1,0 +1,22 @@
+{
+  "name": "JS",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.21.0",
+  "dependencies": {
+    "node": "^20.19.6",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.14"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1"
+  }
+}
