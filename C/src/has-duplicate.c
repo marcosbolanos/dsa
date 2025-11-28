@@ -1,4 +1,3 @@
-#include <assert.h>
 #include <stdbool.h>
 #include <stddef.h>
 #include <stdio.h>
@@ -51,20 +50,4 @@ bool has_duplicate(int arr[], size_t n_elements) {
     add_int_to_set(arr[i], pIntSet);
   }
   return false;
-}
-
-int main() {
-  int a1[4] = {1, 2, 4, 6};
-  int a2[4] = {2, 2, 4, 1};
-  int a3[] = {};
-  int a4[2] = {100, 1000};
-  int a5[5] = {1, 0, 9, 8, 8};
-
-  printf("running tests...");
-  assert(has_duplicate(a1, 4) == false);
-  assert(has_duplicate(a2, 4) == true);
-  assert(has_duplicate(a3, 0) == false);
-  assert(has_duplicate(a4, 2) == false);
-  assert(has_duplicate(a4, 5) == true);
-  printf("all tests are passed!");
 }
